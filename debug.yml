@@ -1,0 +1,7 @@
+---
+- name: dmeo de awx
+  hosts: all
+  tasks:
+    - name: imprimir mensagem
+      debug:
+        msg: imprimindo uma mensagem qlq
