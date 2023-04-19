@@ -1,0 +1,11 @@
+---
+- name: playbook de demo
+  hosts: all
+  tasks:
+    - name: imprimindo mensagem
+      debug: 
+        msg: rodando mensagem inicial de teste
+    - name: atualizacao do sistema operacacional
+      package:
+        name: "*"
+        state: latest
